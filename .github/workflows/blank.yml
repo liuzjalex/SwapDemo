@@ -34,3 +34,6 @@ jobs:
           echo Add other actions to build,
           aaa=${{ github.ref }}
           echo $aaa
+          bb=${aaa: 4}
+          echo ${aaa: 5}
+          echo $bb
